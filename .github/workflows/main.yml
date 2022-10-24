@@ -45,13 +45,16 @@ jobs:
     # - Some CI support inbuilt tasks and scans, for  ease of use
     # - We could install and run DevSkim directly, but we can do it more easily using the DevSkim action
     # - See docs at: https://github.com/microsoft/DevSkim-Action 
-    - uses: microsoft/devskim-action@v1
+    steps:
+    - name: install dotnet
+    - uses: actions/checkout@v3
+    - uses: actions/setup-dotnet@v3
       with:
-        directory-to-scan: /
-        should-scan-archives: false
-        output-filename: devskim-results.sarif
-        output-directory: .comp4035/output
+        dotnet-version: '3.1.x'
+    - run: dotnet tool install --global Microsoft.CST.DevSkim.CLI
 
+    - name: do scan
+    - run: devskim analyze / result.txt
     # Publish the scan results as an artifact
     - uses: actions/upload-artifact@v2
       with: 
