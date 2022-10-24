@@ -50,7 +50,7 @@ jobs:
         dotnet-version: '3.1.x'
     - run: dotnet tool install --global Microsoft.CST.DevSkim.CLI
     - run: ls
-    - run: devskim analyze .
+    - run: devskim analyze . -r .\sectesting\
     # Publish the scan results as an artifact
     - uses: actions/upload-artifact@v2
       with: 

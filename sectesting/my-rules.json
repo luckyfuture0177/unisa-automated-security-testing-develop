@@ -1,0 +1,21 @@
+[
+  {
+    "applies_to": [
+      "typescript",
+      "javascript"
+    ],
+    "description": "when use sql may exist SQL injection vulnerability",
+    "id": "DS7777",
+    "name": "SQLin: SQL injection vulnerability",
+    "patterns": [
+      {
+        "pattern": "models.sequelize.query",
+        "type": "string",
+        "scopes": [
+          "all"
+        ]
+      }
+    ],
+    "severity": "Moderate"
+  }
+]
