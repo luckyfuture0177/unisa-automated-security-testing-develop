@@ -46,7 +46,7 @@ jobs:
     # - We could install and run DevSkim directly, but we can do it more easily using the DevSkim action
     # - See docs at: https://github.com/microsoft/DevSkim-Action 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '3.1.x'
