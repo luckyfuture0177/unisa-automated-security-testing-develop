@@ -44,9 +44,7 @@ jobs:
     # DevSkim
     # - Some CI support inbuilt tasks and scans, for  ease of use
     # - We could install and run DevSkim directly, but we can do it more easily using the DevSkim action
-    # - See docs at: https://github.com/microsoft/DevSkim-Action 
-    steps:
-    - uses: actions/checkout@v2
+    # - See docs at: https://github.com/microsoft/DevSkim-Action
     - uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '3.1.x'
