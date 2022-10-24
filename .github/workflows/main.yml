@@ -51,12 +51,12 @@ jobs:
     - run: dotnet tool install --global Microsoft.CST.DevSkim.CLI
     - run: ls
     - run: pwd
-    - run: devskim analyze login.ts -r sectesting
+    - run: devskim analyze login.ts -r sectesting .result.txt
     # Publish the scan results as an artifact
     - uses: actions/upload-artifact@v2
       with: 
         name: scan-results
-        path: .comp4035/output
+        path: .result.txt
 
   # Deploy the app
   deploy:
