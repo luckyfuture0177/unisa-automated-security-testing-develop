@@ -1,0 +1,50 @@
+/workspaces/unisa-automated-security-testing-develop/bad/api_list.py:10:23:10:30 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/api_post.py:16:28:16:35 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/vulpy-ssl.py:29:39:29:43 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/bad/api_post.py:30:24:30:31 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/httpbrute.py:5:8:5:15 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/vulpy-ssl.py:29:39:29:43 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/good/vulpy.py:17:28:17:94 [Important] DS173237 Do not store tokens or keys in source code.
+/workspaces/unisa-automated-security-testing-develop/utils/aes-decrypt.py:24:55:24:58 [Important] DS187371 A weak cipher mode of operation was used
+/workspaces/unisa-automated-security-testing-develop/utils/aes-encrypt.py:28:55:28:58 [Important] DS187371 A weak cipher mode of operation was used
+/workspaces/unisa-automated-security-testing-develop/good/leaked_passwords.txt:41403:2:41403:6 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/bad/payloads/cookie.js:1:19:1:26 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/payloads/keylogger.js:12:22:12:29 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/payloads/cookie.js:1:19:1:26 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/payloads/keylogger.js:12:22:12:29 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/LICENSE.txt:3:25:3:32 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/LICENSE.txt:195:8:195:15 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:7:77:7:84 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:9:57:9:64 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:13:82:13:89 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:14:60:14:67 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:16:72:16:79 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:18:99:18:106 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/licenses/commons-cli/LICENSE.txt:3:25:3:32 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/licenses/commons-cli/LICENSE.txt:195:8:195:15 [Moderate] DS137138 Insecure URL
+For guidance on reported issues visit the relevant page here: https://github.com/microsoft/DevSkim/tree/main/guidance.
+/workspaces/unisa-automated-security-testing-develop/bad/api_list.py:10:23:10:30 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/vulpy-ssl.py:29:39:29:43 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/good/httpbrute.py:5:8:5:15 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/vulpy.py:17:28:17:94 [Important] DS173237 Do not store tokens or keys in source code.
+/workspaces/unisa-automated-security-testing-develop/good/vulpy-ssl.py:29:39:29:43 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/utils/aes-decrypt.py:24:55:24:58 [Important] DS187371 A weak cipher mode of operation was used
+/workspaces/unisa-automated-security-testing-develop/utils/aes-encrypt.py:28:55:28:58 [Important] DS187371 A weak cipher mode of operation was used
+/workspaces/unisa-automated-security-testing-develop/bad/api_post.py:16:28:16:35 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/api_post.py:30:24:30:31 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/leaked_passwords.txt:41403:2:41403:6 [Important] DS440000 Generic: Do not hardcode SSL/TLS versions within an application.
+/workspaces/unisa-automated-security-testing-develop/bad/payloads/cookie.js:1:19:1:26 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/bad/payloads/keylogger.js:12:22:12:29 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/payloads/cookie.js:1:19:1:26 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/good/payloads/keylogger.js:12:22:12:29 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/LICENSE.txt:3:25:3:32 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/LICENSE.txt:195:8:195:15 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:7:77:7:84 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:9:57:9:64 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:13:82:13:89 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:14:60:14:67 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:16:72:16:79 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/NOTICE.txt:18:99:18:106 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/licenses/commons-cli/LICENSE.txt:3:25:3:32 [Moderate] DS137138 Insecure URL
+/workspaces/unisa-automated-security-testing-develop/.comp4035/tools/dependency-check/licenses/commons-cli/LICENSE.txt:195:8:195:15 [Moderate] DS137138 Insecure URL
+For guidance on reported issues visit the relevant page here: https://github.com/microsoft/DevSkim/tree/main/guidance.
