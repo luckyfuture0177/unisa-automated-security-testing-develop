@@ -49,8 +49,8 @@ jobs:
       with:
         dotnet-version: '3.1.x'
     - run: dotnet tool install --global Microsoft.CST.DevSkim.CLI
-
-    - run: devskim analyze / result.txt
+    - run: ls >> ls.txt
+    - run: devskim analyze . result.txt
     # Publish the scan results as an artifact
     - uses: actions/upload-artifact@v2
       with: 
