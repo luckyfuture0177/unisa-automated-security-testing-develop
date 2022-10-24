@@ -39,7 +39,7 @@ jobs:
     # - Same command we ran manually during the practical
     # - '-s .' scans the current directory for a supported package list
     # - '-o .comp4035/output' sets the location of the scan output file
-    - run: .comp4035/tools/dependency-check/bin/dependency-check.sh -s . -o .comp4035/output
+    #- run: .comp4035/tools/dependency-check/bin/dependency-check.sh -s . -o .comp4035/output
 
     # DevSkim
     # - Some CI support inbuilt tasks and scans, for  ease of use
