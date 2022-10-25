@@ -49,8 +49,6 @@ jobs:
       with:
         dotnet-version: '3.1.x'
     - run: dotnet tool install --global Microsoft.CST.DevSkim.CLI
-    - run: ls
-    - run: pwd
     - run: devskim analyze routes -r sectesting result.txt
     # Publish the scan results as an artifact
     - uses: actions/upload-artifact@v2
